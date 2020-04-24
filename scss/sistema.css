@@ -1,0 +1,29 @@
+.bg-primary {
+  background-color: #1B3F82 !important; }
+
+.text-primary {
+  color: #1B3F82 !important; }
+
+.btn-primary {
+  color: #FFFFFF;
+  background-color: #1B3F82 !important;
+  border-color: rgb(0, 35, 100) !important; }
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #FFFFFF;
+  background-color: rgb(0, 35, 100)!important;
+  border-color: rgb(0, 35, 100)!important; }
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none !important; }
+
+.border-primary {
+  border-color: #1B3F82 !important; }
+
+/*# sourceMappingURL=sistema.css.map */

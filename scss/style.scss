@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+.fondo{
+    background: url(../img/bg.jpg) no-repeat center center fixed;
+    background-size:cover;
+    position:relative;
+}
+
+$azul: #1B3F82;
+$azulDos:#002363;
+
+.bg-primary{
+    background-color: $azul !important;
+}
+
+.text-primary {
+    color: $azul !important;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    background-color: $azul !important;
+    border-color: $azulDos !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    color: #FFFFFF;
+    background-color: $azulDos !important;
+    border-color: $azulDos !important;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-image: none !important;
+}
+
+.border-primary{
+    border-color: $azul !important;
+}
+
+
+
+
+input[type=text].formTransparente,
+input[type=email].formTransparente, 
+input[type=password].formTransparente {
+    color: #FFF !important;
+    background-color: rgba(0, 0, 0, .2) !important;
+}
+
+/*#######################
+CENTRADO
+#######################*/
+.abs-center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    
+.form {
+      width: 450px;
+    }
+
+.card{
+    background-color: rgba(255,255,255,0) !important;
+}
+

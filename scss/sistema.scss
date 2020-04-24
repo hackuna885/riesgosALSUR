@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+$azul: #1B3F82;
+$azulDos:#002363;
+
+.bg-primary{
+    background-color: $azul !important;
+}
+
+.text-primary {
+    color: $azul !important;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    background-color: $azul !important;
+    border-color: $azulDos !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    color: #FFFFFF;
+    background-color: $azulDos !important;
+    border-color: $azulDos !important;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-image: none !important;
+}
+
+.border-primary{
+    border-color: $azul !important;
+}
