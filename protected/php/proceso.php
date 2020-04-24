@@ -12,7 +12,7 @@ include 'seguridad.php';
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" href="../css/sweetalert2.min.css">
 	<link rel="stylesheet" href="../css/sistema.css">
-	<title>Schindler</title>
+	<title>Proceso</title>
 </head>
 <body>
 		<div id="app" class="container-fluid" <?php echo $ocultar; ?>>
